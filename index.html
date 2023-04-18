@@ -1,1 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, Chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/3f0a262cff.js" crossorigin="anonymous"> </script>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <title>Maqueta Portfolio</title>
+</head>
+
+<body class="banner2">
+  <!-- BARRA INICIAL LOGO, REDES, ICONO LOGIN - NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-blue fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="http://127.0.0.1:5500/pruebaMaquetado.github.io/index.html#">
+        <img src="./assets/img/logo3.png" alt="Bootstrap" class="w-50">
+      </a>
+      <ul class="list-group list-group-horizontal ">
+        <li class="list-group-item"><a href="https://linkedin.com" target="_blank"><i
+              class="fa-brands fa-linkedin fa-solid fa-camera fa-2x text-black"></a></i></li>
+        <!-- <li class="list-group-item"><a href="https://facebook.com" target="_blank"><i -->
+              <!-- class="fa-brands fa-facebook fa-solid fa-camera fa-2x text-black"></a></i></li> -->
+        <li class="list-group-item"><a href="https://github.com" target="_blank"><i
+              class="fa-brands fa-github fa-solid fa-camera fa-2x text-black"></a></i></li>          
+        <li class="list-group-item"><a href="https://wa.me/5493816403715" target="_blank"><i
+              class="fa-brands fa-whatsapp fa-solid fa-camera fa-2x text-black"></a></i></li>
+        <li class="list-group-item">
+          <!--BOTON QUE ENVIA AL LOGGIN -->
+          <button type="button" data-bs-toggle="modal" data-bs-target="#loginModal" class="log rounded-circle">
+            <i class="fa-solid fa-user-lock fa-solid fa-camera fa-2x text-black"></i>                    
+            </button>              
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-blue">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Iniciar Sesión</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body fondoBod">
+            
+              <div class="mb-3 row center">
+                <label for="exampleInputEmail1" class="col-form-label text-white">Email</label>
+                  
+                <div class="col6">
+                  <input type="text" class="form-control" id="exampleInputEmail1" value="email@dominio.com">
+                  </div>
+                  </div>
+                  <div class="mb-3 row">
+                      <label for="exampleInputPassword1" class="col-form-label text-white">Contraseña</label>
+                      <div class="col6">
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+              
+                      </div>
+                      </div>
+                  </div>
+
+                  <div class="modal-footer fondoFoot">
+                      <button type="button" class="btn fondoButInitSesion text-white">Iniciar Sesión</button>
+                  </div>
+                  </div>
+                  </div>
+              </div> 
+
+  <!-- SECCION BANNER INICIO, NOMBRE APELLIDO Y STACK -->
+  <section class="banner">
+    <h1 class="text-white text-center posicion1 animacion-soy">
+      Héctor Gerardo Robledo <br>
+      <h3 class="text-white text-center posicion2 animacion-dev">Desarrollador Web Full Stack Jr.</h3>
+    </h1>
+  </section>  
+  
+    <!-- SECCION ACERCA DE MÍ-->
+  
+  <section class="acercade">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-3">
+          <img src="./assets/img/perfil2.jpeg" alt="Mi foto de perfil" class="rounded-circle img-fluid perfil">
+        </div>
+        <div class="col-9 mt-5 text-center">
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nesciunt, possimus nemo magni corporis
+            alias iure aut a tempore quis amet quas quaerat molestiae officia. Quibusdam iste laborum similique
+            accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nesciunt, possimus nemo magni corporis
+            alias iure aut a tempore quis amet quas quaerat molestiae officia. Quibusdam iste laborum similique
+            accusantium?</h3>
+        </div>
+      </div>
+    </div>
+   
+    <!-- SECCION EXPERIENCIA-->
+    <section class="experiencia ">
+      <div>
+        
+        <div class="text-white ">
+          <h1 class="maquina">Experiencia Laboral</h1>
+          </div>
+          <br><br><br>
+          <div class="row rowLaboral">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+          <div class="card" style="width: 18rem">
+            <img  src="./assets/img/noanet-logo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-black text-center"><b>Empresa:</b> NOANET SA. <br><b>Puesto: </b>Ejecutivo/Lider de turno en Contact Center de dicha empresa.</p>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+          <div class="card" style="width: 18rem">
+            <img  src="./assets/img/noanet-logo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-black text-center"><b>Empresa:</b> NOANET SA. <br><b>Puesto: </b>Ejecutivo/Lider de turno en Contact Center de dicha empresa.</p>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+            <div class="card" style="width: 18rem">
+              <img  src="./assets/img/noanet-logo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black text-center"><b>Empresa:</b> NOANET SA. <br><b>Puesto: </b>Ejecutivo/Lider de turno en Contact Center de dicha empresa.</p>
+              </div>
+            </div>
+            </div>
+          </div>          
+          </div>      
+    </section>
+      
+    <!-- ESTUDIOS CURSADOS/CARRUSEL -->
+    <section class="estudy">
+    <div>
+      <div class="text-white ">
+        <h1 class="maquina">Educación</h1>
+      </div>
+      <br><br><br>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6 justify-content-start">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/img/EGG.PNG" class="w-100 cert" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/SeProgramar.png" class=" w-100 cert" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/platzi.JPG " class=" w-100 cert" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/reparacionPc.JPG" class=" w-100 cert" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/animacionesCss.JPG" class=" w-100 cert" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/comunicAsertiva.JPG" class=" w-100 cert" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/efectiva.JPG" class=" w-100 cert" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/empatia.JPG" class=" w-100 cert" alt="...">
+                </div>
+
+
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="ccol-sm-12 col-md-10 col-lg-8 col-xl-6 mt-4 banner2 columnacert">
+            <ul>
+              <li class="margen">Curso "Programación desde Cero (Egg academia)</li>
+              <br>
+              <li class="margen">Argentina Programa. Etapa 1: "Se Programar"</li>
+              <br>
+              <li class="margen">Curso definitivo de HTML y CSS. Academia Platzi</li>
+              <br>
+              <li class="margen">Técnico en reparación de Computadoras (Academia <br>Reparando - Standard Lift SA)</li>
+              <br>
+              <li class="margen">Curso de Animaciones con CSS. Academia Platzi</li>
+              <br>
+              <li class="margen">Curso de Comunicación Asertiva. Academia Platzi</li>
+              <br>
+              <li class="margen">Curso de Comunicación Efectiva. Academia Platzi</li>
+              <br>
+              <li class="margen">Curso para Desarrollar la empatía. Academia Platzi</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+
+  </section>
+
+
+  <!-- SECCION HABILITIES/SKILLS-->
+  <section class="habilities">
+<div class="col6 skill1">
+        <div class="caja-maestra"> 
+            <div class="contenedor">
+                <h2>HARD SKILLS</h2>
+        
+                <div class="skills">
+                    <div class="detalles">
+                        <span>HTML</span>
+                        <span>80%</span>
+                    </div>
+        
+                    <div class="menu">
+        
+                        <div id="html-menu">
+                             
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="skills">
+                    <div class="detalles">
+                        <span>CSS</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="menu">
+        
+                        <div id="css-menu">
+                             
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="skills">
+                    <div class="detalles">
+                        <span>JAVASCRIPT</span>
+                        <span>50%</span>
+                    </div>
+        
+                    <div class="menu">
+        
+                        <div id="js-menu">
+                             
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="skills">
+                    <div class="detalles">
+                        <span>ANGULAR</span>
+                        <span>55%</span>
+                    </div>
+        
+                    <div class="menu">
+        
+                        <div id="angular-menu">
+                             
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="skills">
+                  <div class="detalles">
+                      <span>INGLES</span>
+                      <span>45%</span>
+                  </div>
+      
+                  <div class="menu">
+      
+                      <div id="ingles-menu">
+                           
+                      </div>
+      
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col6 skill2">
+        <div class="caja-maestra"> 
+            <div class="contenedor">
+                <h2>SOFT SKILLS</h2>
+        
+                <div class="skills">
+                    <div class="detalles">
+                        <span>TRABAJO EN EQUIPO</span>
+                        <span>90%</span>
+                    </div>
+        
+                    <div class="menu">
+        
+                        <div id="trabajoEquipo-menu">
+                             
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="skills">
+                    <div class="detalles">
+                        <span>MANEJO DE EMOCIONES</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="menu">
+        
+                        <div id="emociones-menu">
+                             
+                        </div>
+        
+                    </div>
+                </div>
+
+                  <div class="skills">
+                    <div class="detalles">
+                        <span>PROACTIVIDAD</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="menu">
+        
+                        <div id="proactividad-menu">
+                             
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="skills">
+                    <div class="detalles">
+                        <span>COMUNICACION EFECTIVA</span>
+                        <span>75%</span>
+                    </div>
+        
+                    <div class="menu">
+        
+                        <div id="comEfectiva-menu">
+                             
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="skills">
+                    <div class="detalles">
+                        <span>PUNTUALIDAD</span>
+                        <span>100%</span>
+                    </div>
+        
+                    <div class="menu">
+        
+                        <div id="puntualidad-menu">
+                             
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>        
+  </div>
+  </section>
+
+
+  <!-- SECCION PROJECTS/PROYECTOS-->
+  <section class="projects">
+    <h1 class="proyectos">Proyectos</h1>
+    <div class="container-sup">
+
+
+    <div class="card carduno" style="width: 22rem;">
+      <img src="./assets/img/287576304_130681162971198_8878221375196543524_n.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-black">Los Reparadores</h5>
+        <p class="card-text text-black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="https://www.facebook.com/lossreparadores/" target="_blank" class="btn btn-primary">Visitar</a>
+      </div>
+    </div>
+
+    <div class="card card2" style="width: 18rem;">
+      <img src="./assets/img/imagen1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-black">PROYECTO 2</h5>
+        <p class="card-text text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta illum natus expedita, iure blanditiis consequatur saepe veniam minima cupiditate dolorum laboriosam accusantium id quod asperiores ipsam dolorem nesciunt nam architecto.</p>
+        <a href="https://yb-iptv-para-todos.webnode.page/" target="_blank" class="btn btn-primary">Visitar</a>
+      </div>
+    </div>
+
+    <div class="card card3" style="width: 18rem;">
+      <img src="./assets/img/imagen1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-black">PROYECTO 3</h5>
+        <p class="card-text text-black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="https://yb-iptv-para-todos.webnode.page/" target="_blank" class="btn btn-primary">Visitar</a>
+      </div>
+    </div>
+    </div>
+
+  </section>  
+<br>
+  
+  <!-- SECCION FOOTER-->
+ <footer class="text-white text-center w-100">
+    
+      <p>&copy Copyright Héctor Gerardo Robledo - 2023</p>
+    
+  </footer>  
+
+
+  <!-- JavaScript Bundle with Popper  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

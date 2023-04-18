@@ -1,0 +1,576 @@
+.bg-blue{
+    background-color: #26269c;
+
+}
+
+
+
+ .list-group{
+   --bs-list-group-bg: transparent;
+   cursor: pointer;
+}
+
+ .list-group-item{
+   border: none
+}
+
+ .fa-brands.fa-linkedin.fa-2x:hover{
+  --bs-text-opacity: 1;
+  color: #f1f2f3 !important;
+}
+
+.fa-brands.fa-whatsapp.fa-2x:hover{
+  --bs-text-opacity: 1;
+  color: #f1f2f3 !important;
+}
+
+.fa-brands.fa-github.fa-2x:hover{
+  --bs-text-opacity: 1;
+  color: #f1f2f3 !important;
+}
+
+.fa-solid.fa-user-lock.fa-2x:hover{
+  --bs-text-opacity: 1;
+  /* color: #f1f2f3 !important; */
+  color: #f00101 !important;
+}
+
+section.banner{
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../img/imagen3.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -msn-background-size: cover;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+}
+
+.animacion-soy{
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+
+.animacion-dev{
+  animation-duration: 7s;
+  animation-name: slidein;
+}
+
+h1.posicion1{
+  padding-top: 18%;
+  font-size: 3.5rem;
+}
+
+img.perfil{
+  margin-top: 10%;
+  margin-left: -30%;
+  width: 100%;
+  filter: brightness(70%);
+
+}
+
+section.banner2{
+  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url(../img/fondo_negro.webp);
+  width: 100%;
+  height: 75%;
+  background-repeat:unset;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -msn-background-size: cover;
+}
+
+.log{
+  background-color: #26269c;
+  border-style: none;
+  
+}
+
+.fondoFoot{
+  background-color: rgba(0,0,0,1.0)
+}
+
+.fondoBod{
+  background-color: rgba(0,0,0,1.0)
+  
+}
+
+.modal-header{
+  border: none;
+}
+
+.modal-footer{
+  border: none;
+  
+}
+
+.fondoButInitSesion{
+  background-color: #26269c;
+}
+
+body.banner2{
+  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url(../img/fondo_negro.webp);
+
+}
+
+
+.estudy{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.experiencia{
+  margin-top: 10%;
+  text-align: justify;
+}
+
+.rowLaboral{
+  margin-left: 5%;
+}
+
+.noanetlogo{
+  width: 20%;
+  height: 10%;
+  
+}
+
+
+
+.contenedor{ 
+
+  width: 50%;
+  margin-left: 12%;
+	/* width: 100%; 
+	padding: 30px 30px 50px;
+	background: linear-gradient(450deg,darkblue, black);
+	border: 2px solid rgba(0, 0, 0, 0.06);
+	border-radius: 10px;
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(10px);*/
+}
+
+.contenedor *{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: whitesmoke;
+	font-weight: 500;
+}
+
+h2{
+	margin-bottom:  50px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.skills:not(:last-child){
+	margin-bottom: 30px;
+}
+
+.detalles{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.menu{
+	position: relative;
+	border: 2px solid rgb(76, 0, 255);
+	border-radius: 20px;
+}
+
+.menu div{
+	position: relative;
+	width: 0;
+	height: 10px;
+	border-radius: 10px;
+	background-color: rgba(0, 255, 255, 0.747);
+}
+
+#html-menu{
+	animation: html-barra 3s forwards 3;
+
+}
+
+@keyframes html-barra{
+	100%{
+		width: 80%;
+	}
+}
+
+#css-menu{
+	animation: css-barra 3s forwards 3;
+
+}
+
+@keyframes css-barra{
+	100%{
+		width: 65%;
+	}
+}
+
+#js-menu{
+	animation: js-barra 3s forwards 3;
+
+}
+
+@keyframes js-barra{
+	100%{
+		width: 50%;
+	}
+}
+
+#angular-menu{
+	animation: angular-barra 3s forwards 3;
+
+}
+
+@keyframes angular-barra{
+	100%{
+		width: 55%;
+	}
+}
+
+#ingles-menu{
+	animation: ingles-barra 3s forwards 3;
+
+}
+
+@keyframes ingles-barra{
+	100%{
+		width: 45%;
+	}
+}
+
+
+#trabajoEquipo-menu{
+	animation: trabajoEquipo-barra 3s forwards 3;
+
+}
+.proyectos{
+  overflow: hidden;
+  white-space: nowrap; 
+  font-size: 3rem;
+  margin: 0 auto;
+  font-family: "Courier New";
+  border-right: 0.15em solid #18bdec;
+  animation: typing 5s steps(40) infinite alternate;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  display: flex;
+  
+}
+
+@keyframes trabajoEquipo-barra{
+	100%{
+		width: 90%;
+	}
+}
+
+#emociones-menu{
+	animation: emociones-barra 3s forwards 3;
+
+}
+
+@keyframes emociones-barra{
+	100%{
+		width: 70%;
+	}
+}
+
+#proactividad-menu{
+	animation: proactividad-barra 3s forwards 3;
+
+}
+
+@keyframes proactividad-barra{
+	100%{
+		width: 95%;
+	}
+}
+
+
+#comEfectiva-menu{
+	animation: comEfectiva-barra 3s forwards 3;
+
+}
+
+@keyframes comEfectiva-barra{
+	100%{
+		width: 75%;
+	}
+}
+
+#puntualidad-menu{
+	animation: puntualidad-barra 3s forwards 3;
+
+}
+
+@keyframes puntualidad-barra{
+	100%{
+		width: 100%;
+	}
+}
+
+
+.skill1{	
+	position:absolute;
+	
+	margin-left: 1%;
+	width: 70%;
+	margin-top: 0%;
+}
+
+.skill2{
+	
+	margin-left: 45%;
+	margin-right: 1%;
+	margin-top: 4%;
+	width: 70%;
+}
+
+
+
+.container-sup{
+  width: 100%;
+  height: auto;
+  display: flex !important;
+  
+  
+  justify-content: center;
+  
+}
+
+.carduno{
+  border-bottom-width: 5px;
+  border-bottom-style: groove;
+  border-bottom-color: blue;
+  border-right-width: 5px; 
+  border-right-style: groove;
+  border-right-color: blue;
+  border-left-width: 5px; 
+  border-left-style: groove;
+  border-left-color: blue;
+  border-top-width: 5px; 
+  border-top-style: groove;
+  border-top-color: blue;
+}
+
+
+.carduno:hover{
+  opacity: 70%;
+ 
+    
+}
+
+.card2{
+  margin-left: 5%;
+  border-bottom-width: 5px;
+  border-bottom-style: groove;
+  border-bottom-color: blue;
+}
+
+.card2:hover{
+  opacity: 70%;;
+  
+}
+
+.card3{
+  margin-left: 5%;
+  border-bottom-width: 5px;
+  border-bottom-style: groove;
+  border-bottom-color: blue;
+}
+
+.card3:hover{
+  opacity: 70%;
+}  
+
+
+
+
+
+
+
+
+.card1{
+  height: 300%;
+}
+.acercade{
+  margin-top: 3%; 
+  margin-left: 3%;
+  color: #f1f2f3;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+h5{
+  color: #f1f2f3;
+  text-align: justify;
+}
+
+.margen{
+  text-align: justify;;
+  color: #f1f2f3;
+}
+
+.columnacert{
+  position:relative;
+  left: 15%;
+  
+}
+
+
+.cert{
+  filter: brightness(90%);
+}
+
+
+
+
+.login{
+  height: 76vh;
+}
+
+.form-login{
+  margin-top: 15%;
+}
+
+.email{
+  color: #f1f2f3;
+}
+
+.contra-login{
+  color: #f1f2f3;
+}
+
+.ingreso-login{
+  color: #f1f2f3;
+}
+
+.sino-tenes{
+  color: #f1f2f3;
+}
+
+.regis{
+  color: #f1f2f3;
+}
+
+.banner-login{
+  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url(../img/fondo_negro.webp);
+  width: 100%;
+  height: 75%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -msn-background-size: cover;
+}
+
+.admin{
+  font-size: 1.5rem;
+}
+
+.admin-perfil{
+  margin-left: -5%;
+  filter: brightness(70%);
+}
+
+.link{
+  text-decoration: none;
+  color: #000000;
+}
+
+
+nav.vertical{
+  float: left;
+  margin-left: 0.1rem;
+}
+
+li.vertical{
+
+  display: block;
+  margin:0;
+  writing-mode: vertical;
+  padding: 1.75rem 0;
+  font-size: 1.25rem;
+  
+}
+
+
+
+a, a:hover{
+  -bs-text-opacity: 1;
+  color: #26269c !important;
+}
+
+
+/*.alin-estudios{
+  text-align: center;;
+  margin-top: 5%;
+
+
+}}*/
+/* section.estudios{
+  background-image: url(/assets/img/fondo_negro.webp);
+  background-size: cover;
+  position: relative;
+  background-color:  #030000ec;
+}
+
+h3.seccstudios{
+ color: #f1f2f3;
+  text-align: justify;
+}*/
+
+.maquina{
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 3rem;
+  margin: 0 auto;
+  font-family: "Courier New";
+  border-right: 0.15em solid #18bdec;
+  animation: typing 5s steps(40) infinite alternate;
+  /* 1s 1 normal both, blink 1s steps(3) infinite */
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 45%;
+  }
+}
+@keyframes blink {
+  15% {
+    border-color: transparent;
+  }
+}
+
+footer{
+  margin-top: 5%;
+}  
